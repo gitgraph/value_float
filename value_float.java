@@ -1,8 +1,14 @@
 
-        if (etime == 1)
-        {
+ 
 
-            ftime = Math.Round(ftime, 2);
+
+            int rts1 = (int)rts;
+
+            int rts2 = (int)(((decimal)rts % 1) * 10);
+
+
+
+            float ftime = Math.Round(ftime, 2);
 
 
             double rtsc = ftime;
@@ -18,15 +24,12 @@
             if ((rts + 4) > 9)
             {
 
-
             }
 
 
             if (e3s == 1)
             {
-
-               
-
+                    
                 e3s = 2;
             }
 
@@ -70,9 +73,7 @@
                 etime = 0;
             }
 
-          
-        }
-
+    
 
 
 
